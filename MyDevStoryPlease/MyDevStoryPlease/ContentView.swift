@@ -8,37 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isButtonPressed: Bool = false
-    
     var body: some View {
         VStack {
-            if isButtonPressed {
-                Text("Hello, World!")
-                .font(.largeTitle)
-                .background(.green)
+            Text("I took a class freshman year, but it wasn't a fun time for me.")
+                .font(.title)
+            
+            Text("😖")
+                .font(.system(size: 96))
                 .padding()
-                            
-                Image(systemName: "star.fill")
-                    .resizable()
-                    .frame(width: 100, height: 100)
-                    .foregroundColor(.yellow)
-                    .padding()
-                
-                Text("My name is Josh Thies")
-                    .font(.largeTitle)
-                    .foregroundColor(.purple)
-                    .padding()
-            } else {
-                Button(action: {
-                    isButtonPressed = true
-                }) {
-                    Text("Tap me!")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                }
-            }
+            
+            Text("I wasn't motivated at all and it ended up being my worst grade of my entire highschool career.")
+                .font(.title)
+                .multilineTextAlignment(.leading)
+            
+            Text("B-")
+                .font(.system(size: 96))
+                .background(.red)
         }
         .padding()
     }

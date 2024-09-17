@@ -25,7 +25,7 @@ struct Page3: View {
                 .font(.system(size: 96))
                 .background(.red)
         }
-        .padding
+        .padding()
     }
 }
 

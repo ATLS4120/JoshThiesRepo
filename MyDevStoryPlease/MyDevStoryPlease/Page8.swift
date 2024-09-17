@@ -10,24 +10,23 @@ import SwiftUI
 struct Page8: View {
     var body: some View {
         VStack {
-            VStack {
-                Text("Eventually, this steered me back towards computer science and web development")
+            Text("Eventually, this steered me back towards computer science and web development")
+                .font(.title)
+            Text("🖥️")
+                .font(.system(size: 96))
+                .padding()
+            HStack{
+                Text("but this time... I was ")
+                    .multilineTextAlignment(.trailing)
                     .font(.title)
-                Text("🖥️")
-                    .font(.system(size: 96))
-                    .padding()
-                HStack{
-                    Text("but this time... I was ")
-                        .multilineTextAlignment(.trailing)
-                        .font(.title)
-                    
-                    Text("ready")
-                        .bold()
-                        .font(.title)
-                        .underline()
-                }
+                
+                Text("ready")
+                    .bold()
+                    .font(.title)
+                    .underline()
             }
-            .padding()
+        }
+        .padding()
     }
 }
 
