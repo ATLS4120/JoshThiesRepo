@@ -14,10 +14,10 @@ struct Page1: View {
         VStack {
             if isButtonPressed {
                 Text("Hello, World!")
-                .font(.largeTitle)
-                .background(.green)
-                .padding()
-                            
+                    .font(.largeTitle)
+                    .background(.green)
+                    .padding()
+                
                 Image(systemName: "star.fill")
                     .resizable()
                     .frame(width: 100, height: 100)
@@ -28,7 +28,9 @@ struct Page1: View {
                     .font(.largeTitle)
                     .foregroundColor(.purple)
                     .padding()
-            } else {
+            }
+            
+            else {
                 Button(action: {
                     isButtonPressed = true
                 }) {
@@ -37,6 +39,7 @@ struct Page1: View {
                         .background(Color.blue)
                         .foregroundColor(.white)
                         .cornerRadius(10)
+                        .font(.largeTitle)
                 }
             }
         }

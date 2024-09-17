@@ -9,23 +9,51 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("I took a class freshman year, but it wasn't a fun time for me.")
-                .font(.title)
-            
-            Text("😖")
-                .font(.system(size: 96))
-                .padding()
-            
-            Text("I wasn't motivated at all and it ended up being my worst grade of my entire highschool career.")
-                .font(.title)
-                .multilineTextAlignment(.leading)
-            
-            Text("B-")
-                .font(.system(size: 96))
-                .background(.red)
+        NavigationView {
+            VStack {
+                List {
+                    Section(header:
+                                Text("Highschool")
+                    )
+                    {
+                        NavigationLink("Page1",
+                                       destination: Page1())
+                        NavigationLink("Page2",
+                                       destination: Page2())
+                        NavigationLink("Page3",
+                                       destination: Page3())
+                    }
+                    
+                    Section(header:
+                                Text("Engineering")
+                    )
+                    {
+                        NavigationLink("Page4",
+                                       destination: Page4())
+                        NavigationLink("Page5",
+                                       destination: Page5())
+                    }
+                    
+                    Section(header:
+                                Text("CTD")
+                    )
+                    {
+                        NavigationLink("Page6",
+                                       destination: Page6())
+                        NavigationLink("Page7",
+                                       destination: Page7())
+                        NavigationLink("Page8",
+                                       destination: Page8())
+                        NavigationLink("Page9",
+                                       destination: Page9())
+                        NavigationLink("Page10",
+                                       destination: Page10())
+                    }
+                
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
