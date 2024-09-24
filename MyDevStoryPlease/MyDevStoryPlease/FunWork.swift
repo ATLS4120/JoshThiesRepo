@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Page7: View {
+struct FunWork: View {
     var body: some View {
         VStack {
             Text("It was fun to")
@@ -33,5 +33,5 @@ struct Page7: View {
 }
 
 #Preview {
-    Page7()
+    FunWork()
 }

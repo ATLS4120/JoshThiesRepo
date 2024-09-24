@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Page9: View {
+struct Pride: View {
     var body: some View {
         VStack {
             Text("I could see that my skills were actually being put to use.")
@@ -32,5 +32,5 @@ struct Page9: View {
 }
 
 #Preview {
-    Page9()
+    Pride()
 }

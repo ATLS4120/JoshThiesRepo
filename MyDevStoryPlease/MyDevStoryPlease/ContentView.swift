@@ -16,38 +16,38 @@ struct ContentView: View {
                                 Text("Highschool")
                     )
                     {
-                        NavigationLink("Page1",
-                                       destination: Page1())
-                        NavigationLink("Page2",
-                                       destination: Page2())
-                        NavigationLink("Page3",
-                                       destination: Page3())
+                        NavigationLink("Hello, World!",
+                                       destination: HelloWorld())
+                        NavigationLink("My First Step",
+                                       destination: FirstStep())
+                        NavigationLink("My Struggles",
+                                       destination: Struggles())
                     }
                     
                     Section(header:
                                 Text("Engineering")
                     )
                     {
-                        NavigationLink("Page4",
-                                       destination: Page4())
-                        NavigationLink("Page5",
-                                       destination: Page5())
+                        NavigationLink("Engineering?",
+                                       destination: Engineering())
+                        NavigationLink("I'm Lost",
+                                       destination: Lost())
                     }
                     
                     Section(header:
                                 Text("CTD")
                     )
                     {
-                        NavigationLink("Page6",
-                                       destination: Page6())
-                        NavigationLink("Page7",
-                                       destination: Page7())
-                        NavigationLink("Page8",
-                                       destination: Page8())
-                        NavigationLink("Page9",
-                                       destination: Page9())
-                        NavigationLink("Page10",
-                                       destination: Page10())
+                        NavigationLink("CTD!",
+                                       destination: CTD())
+                        NavigationLink("Enjoyable Work",
+                                       destination: FunWork())
+                        NavigationLink("Comp Sci Attempt 2",
+                                       destination: CompSci2())
+                        NavigationLink("Pride!",
+                                       destination: Pride())
+                        NavigationLink("Blast Off!",
+                                       destination: BlastOff())
                     }
                 
                 }

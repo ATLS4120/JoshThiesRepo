@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Page2: View {
+struct FirstStep: View {
     var body: some View {
         VStack {
             Text("My Dev Story Started")
@@ -30,5 +30,5 @@ struct Page2: View {
 }
 
 #Preview {
-    Page2()
+    FirstStep()
 }

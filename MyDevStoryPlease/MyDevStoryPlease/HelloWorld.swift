@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Page1: View {
+struct HelloWorld: View {
     @State private var isButtonPressed: Bool = false
     
     var body: some View {
@@ -47,5 +47,5 @@ struct Page1: View {
     }
 }
 #Preview {
-    Page1()
+    HelloWorld()
 }

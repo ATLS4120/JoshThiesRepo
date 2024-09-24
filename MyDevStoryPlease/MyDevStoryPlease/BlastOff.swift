@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Page10: View {
+struct BlastOff: View {
     var body: some View {
         ZStack {
             Color.pink
@@ -36,5 +36,5 @@ struct Page10: View {
 }
 
 #Preview {
-    Page10()
+    BlastOff()
 }

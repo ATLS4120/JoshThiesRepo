@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Page8: View {
+struct CompSci2: View {
     var body: some View {
         VStack {
             Text("Eventually, this steered me back towards computer science and web development")
@@ -31,5 +31,5 @@ struct Page8: View {
 }
 
 #Preview {
-    Page8()
+    CompSci2()
 }
